@@ -6,6 +6,9 @@ body{
 	padding-left: 12px;
 	
 }
+.nav-item-icon{
+	margin:auto;
+}
 .flag{
 	max-height: 20px;
 	max-width: 20px;
@@ -35,14 +38,14 @@ body{
 
 .reserve-text{
     position: absolute;
-    top: 40%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .image-reserve{
 	opacity: 0.4;
-	max-height: 750px;
+	max-height: 850px;
 }
 
 .carousel-caption{
@@ -88,12 +91,68 @@ body{
 	font-size:28; 
 }
 
+.nav-link{
+	border-width:2px 2px 2px 2px;
+	border-radius:0%;
+	text-align:center;
+}
+.list-group{
+	list-style-type:none;
+}
+
+.right{
+	float:right;
+	padding-right:20px;
+	margin-bottom:15px;
+	font-size:15px;
+}
+
+.left{
+	float:left;
+	padding-left:20px;
+	margin-bottom:15px;
+	font-size:15px;
+}
+
+.card-title{
+	text-align:center;
+}
+
+.bg-trans{
+	
+	background-color: transparent;
+	background-image:url("images/share.jpg");
+	padding-top:270px;
+}
+
+.form-title{
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:10px;	
+}
+.form-control{
+	background-color:transparent;
+	height:200px;
+}
+
+.row{
+	margin-bottom:20px;	
+	padding-left:auto;
+	padding-right:auto;
+}
+.col-md-4{
+		
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.col-md-3{
+	padding-top: 20px;
+}
 footer{
 	position: fixed;
 	bottom: 0px;
 	padding-top: 20px;
 }
-.nav-link{
-	border-width:2px 2px 2px 2px;
-	border-radius:50%;
-}
+
+
